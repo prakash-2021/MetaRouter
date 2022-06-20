@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
-@import './variable';
+@import './scss--components/variable';
 *{
     margin: 0;
     padding: 0;
@@ -35,13 +35,13 @@
     }
 }
 
-@import './header';
-@import './hero';
-@import './performance';
-@import './integration';
-@import './compliance';
-@import './banner';
-@import './footer';
+@import './scss--components/header';
+@import './scss--components/hero';
+@import './scss--components/performance';
+@import './scss--components/integration';
+@import './scss--components/compliance';
+@import './scss--components/banner';
+@import './scss--components/footer';
 
 
 @media only screen and (max-width: 500px){
