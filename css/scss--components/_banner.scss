@@ -3,7 +3,7 @@
 .banner {
     padding-top: 64px;
 
-    .banner__grid {
+    &__grid {
         position: relative;
         margin-bottom: 48px;
         display: grid;
@@ -72,7 +72,7 @@
 
 @media only screen and (max-width: 850px) {
     .banner{
-        .banner__grid{
+        &__grid{
             .banner__form{
                 form{
                     input[type = text] {
@@ -86,7 +86,7 @@
 
 @media only screen and (max-width: 500px){
     .banner{
-        .banner__grid{
+        &__grid{
             grid-template-columns: 1fr;
             padding: 400px 10px 0 ;
 

@@ -12,8 +12,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 32px;
-        // align-items: center;
-
+        
         .hero__text__section {
             color: white;
             font-weight: 400;
@@ -43,7 +42,7 @@
                 font-weight: 400;
             }
 
-            .btn__primary {
+            .btn--primary {
                 margin-bottom: 100px;
             }
         }
