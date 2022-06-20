@@ -848,7 +848,6 @@ header .ham__btn {
 
 .compliance {
   padding-top: 64px;
-  border-bottom: 0.1px solid #a79d9d;
 }
 
 .compliance__img {
@@ -955,6 +954,7 @@ header .ham__btn {
   -ms-grid-columns: 0.35fr 1fr;
       grid-template-columns: 0.35fr 1fr;
   padding: 40px 0 40px 64px;
+  padding-right: 64px;
   border-radius: 22px;
   background-image: url("../img/cta.svg");
   background-position: 0px 0px;
