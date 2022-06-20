@@ -15,9 +15,23 @@
   margin: 0 auto;
 }
 
+.img--one {
+  display: block;
+}
+
+.img--two {
+  display: none;
+}
+
 @media only screen and (max-width: 500px) {
   .container {
     padding: 0 32px;
+  }
+  .img--one {
+    display: none;
+  }
+  .img--two {
+    display: block;
   }
 }
 
@@ -738,6 +752,10 @@ header .ham__btn {
     -ms-grid-columns: (minmax(0, 1fr))[1];
         grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+  .performance__section .img__performance {
+    margin: 100px auto;
+    width: 60%;
+  }
   .performance__section .performance__approach .approach__grid .approach__heading__mega {
     font-size: 24px;
   }
@@ -1074,7 +1092,7 @@ header .ham__btn {
   letter-spacing: 1px;
 }
 
-.footer__flex-top .footer__div h5 {
+.footer__flex-top .footer__div .heading--top {
   font-size: 16px;
   line-height: 35px;
   font-weight: 500;

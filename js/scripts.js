@@ -91,3 +91,16 @@ hamIcon.addEventListener('click', function () {
         hamIcon.style.backgroundColor = "#7582f1"
     }
 })
+
+function myFunction(x) {
+
+    if (x.matches) { 
+      navList.style.transform = 'translate(0%, 10%)'
+    } else {
+        navList.style.transform = 'translate(0%, -150%)'
+    }
+  }
+  
+  const x = window.matchMedia("(min-width: 851px)")
+  myFunction(x) 
+  x.addListener(myFunction) 
